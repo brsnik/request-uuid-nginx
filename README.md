@@ -51,7 +51,7 @@ Will add a header called `request_uuid` (could be customized) with the UUID as a
 
 ### Use for logging
     http {
-        log_format uni escape=json
+        log_format custom_json escape=json
             '{'
                 '"request_uuid":"$request_uuid",'
                 '"time_local":"$time_local",'
