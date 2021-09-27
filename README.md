@@ -5,7 +5,7 @@ Super useful for tracking requests from Nginx all the way to your application.
 
 ## Example
 ### request_uuid1.conf
-Will generate a UUID version 1 which include a timestamp with a random Mac Address.
+Will generate a UUID version 1 which includes a timestamp with a random Mac Address.
 
 `$request_uuid` = `330f21eb1f8111ecba62c8e76eb827c4`
 
