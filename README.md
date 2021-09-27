@@ -1,5 +1,5 @@
 ## Nginx Request UUID
-Generates a unique UUID variable `$request_uuid` for each Nginx request. 
+Generates a variable `$request_uuid` with a unique UUID for each Nginx request. 
 
 Super useful for tracking requests from Nginx all the way to your application.
 
